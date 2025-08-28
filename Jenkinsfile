@@ -4,7 +4,7 @@ pipeline{
         stage('checkout the code from github'){
             steps{
                  git url: 'https://github.com/Sekhar295/Banking-java-project/'
-                 echo 'githuburl checkout'
+                 echo 'github url checkout'
             }
         }
         stage('codecompile with akshat'){

@@ -4,6 +4,7 @@ pipeline{
         stage('checkout the code from github'){
             steps{
                  git url: 'https://github.com/Sekhar295/Banking-java-project/'
+                 credentialsId: 'github'
                  echo 'github url checkout'
             }
         }
